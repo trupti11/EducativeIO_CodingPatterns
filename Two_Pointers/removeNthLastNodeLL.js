@@ -15,8 +15,8 @@ SOLUTIONS:
                   t = O(n), s = O(1)
  */
 
-import LinkedList from "./linked_list.js";
-import LinkedListNode from "./linked_list_node.js";
+import LinkedList from "../linked_list.js";
+import LinkedListNode from "../linked_list_node.js";
 
 function removeNthLastNode(head, n) {
     var endNode = head, deletionNode = head;
